@@ -1,0 +1,5 @@
+    1  find / -type f -perm 4000 2>/dev/null
+    2  sudo find / -type f -perm 4000 2>/dev/null
+    3  sudo find / -type f -perm -4000 2>/dev/null
+    4  ps -eo pid,user,euser,euid,ruid,cmd | awk '$5==0 && $6 != 0'
+    5  history > task2.txt

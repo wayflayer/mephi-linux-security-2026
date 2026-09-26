@@ -1,0 +1,10 @@
+    1  cp /usr/bin/cat ./my_cat
+    2  ls
+    3  ls -l 
+    4  sudo chown root:root ./my_cat 
+    5  sudo chmod u+s ./my_cat 
+    6  ls -l my_cat 
+    7  ./my_cat 
+    8  ./my_cat /etc/shadow
+    9  ls
+   10  history > task3.txt

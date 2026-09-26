@@ -1,0 +1,118 @@
+      1 root     root         0     0 /usr/lib/systemd/systemd --switched-root --system --deserialize=40 rhgb
+      2 root     root         0     0 [kthreadd]
+      3 root     root         0     0 [pool_workqueue_release]
+      4 root     root         0     0 [kworker/R-kvfree_rcu_reclaim]
+      5 root     root         0     0 [kworker/R-rcu_gp]
+      6 root     root         0     0 [kworker/R-sync_wq]
+      7 root     root         0     0 [kworker/R-slub_flushwq]
+      8 root     root         0     0 [kworker/R-netns]
+     10 root     root         0     0 [kworker/0:0H-kblockd]
+     12 root     root         0     0 [kworker/u8:0-ipv6_addrconf]
+     13 root     root         0     0 [kworker/R-mm_percpu_wq]
+     14 root     root         0     0 [rcu_tasks_kthread]
+     15 root     root         0     0 [rcu_tasks_rude_kthread]
+     16 root     root         0     0 [rcu_tasks_trace_kthread]
+     17 root     root         0     0 [ksoftirqd/0]
+     18 root     root         0     0 [rcu_preempt]
+     19 root     root         0     0 [rcu_exp_par_gp_kthread_worker/0]
+     20 root     root         0     0 [rcu_exp_gp_kthread_worker]
+     21 root     root         0     0 [migration/0]
+     22 root     root         0     0 [idle_inject/0]
+     23 root     root         0     0 [cpuhp/0]
+     24 root     root         0     0 [cpuhp/1]
+     25 root     root         0     0 [idle_inject/1]
+     26 root     root         0     0 [migration/1]
+     27 root     root         0     0 [ksoftirqd/1]
+     32 root     root         0     0 [kdevtmpfs]
+     33 root     root         0     0 [kworker/R-inet_frag_wq]
+     34 root     root         0     0 [kauditd]
+     35 root     root         0     0 [khungtaskd]
+     36 root     root         0     0 [oom_reaper]
+     39 root     root         0     0 [kworker/R-writeback]
+     40 root     root         0     0 [kcompactd0]
+     41 root     root         0     0 [ksmd]
+     42 root     root         0     0 [khugepaged]
+     43 root     root         0     0 [kworker/R-cryptd]
+     44 root     root         0     0 [kworker/R-kintegrityd]
+     45 root     root         0     0 [kworker/R-kblockd]
+     46 root     root         0     0 [kworker/R-blkcg_punt_bio]
+     47 root     root         0     0 [irq/9-acpi]
+     49 root     root         0     0 [kworker/R-tpm_dev_wq]
+     50 root     root         0     0 [kworker/R-ata_sff]
+     51 root     root         0     0 [kworker/R-md]
+     52 root     root         0     0 [kworker/R-md_bitmap]
+     53 root     root         0     0 [kworker/R-edac-poller]
+     54 root     root         0     0 [kworker/R-devfreq_wq]
+     55 root     root         0     0 [watchdogd]
+     56 root     root         0     0 [kworker/R-quota_events_unbound]
+     58 root     root         0     0 [kswapd0]
+     66 root     root         0     0 [kworker/R-kthrotld]
+     71 root     root         0     0 [kworker/R-acpi_thermal_pm]
+     73 root     root         0     0 [kworker/R-dm_bufio_cache]
+     74 root     root         0     0 [kworker/R-mld]
+     75 root     root         0     0 [kworker/R-ipv6_addrconf]
+     77 root     root         0     0 [kworker/u8:1-ipv6_addrconf]
+     81 root     root         0     0 [kworker/R-kstrp]
+     90 root     root         0     0 [kworker/u11:0]
+     91 root     root         0     0 [kworker/u12:0]
+     92 root     root         0     0 [kworker/u13:0]
+    225 root     root         0     0 [kworker/R-cfg80211]
+    304 root     root         0     0 [scsi_eh_0]
+    305 root     root         0     0 [kworker/R-scsi_tmf_0]
+    306 root     root         0     0 [scsi_eh_1]
+    307 root     root         0     0 [kworker/R-scsi_tmf_1]
+    314 root     root         0     0 [kworker/1:2H-kblockd]
+    337 root     root         0     0 [kworker/R-ttm]
+    356 root     root         0     0 [jbd2/sda4-8]
+    357 root     root         0     0 [kworker/R-ext4-rsv-conversion]
+    405 root     root         0     0 /usr/lib/systemd/systemd-journald
+    422 root     root         0     0 /usr/lib/systemd/systemd-udevd
+    479 root     root         0     0 [jbd2/sda2-8]
+    480 root     root         0     0 [kworker/R-ext4-rsv-conversion]
+    488 root     root         0     0 /usr/lib/systemd/systemd-userdbd
+    493 root     root         0     0 /sbin/auditd
+    521 root     root         0     0 /usr/sbin/NetworkManager --no-daemon
+    522 root     root         0     0 /usr/libexec/accounts-daemon
+    528 root     root         0     0 /usr/sbin/irqbalance --foreground
+    531 root     root         0     0 /usr/sbin/mcelog --daemon --foreground
+    533 root     root         0     0 /usr/bin/python3 /usr/share/redos/redos-local-install/init_dbus_starter.py --start
+    534 root     root         0     0 /usr/bin/python3 /usr/share/redos/redoswelcome/dbus-starter.py --start
+    536 root     root         0     0 /usr/lib/systemd/systemd-homed
+    537 root     root         0     0 /usr/lib/systemd/systemd-logind
+    538 root     root         0     0 /usr/libexec/udisks2/udisksd
+    539 root     root         0     0 /usr/libexec/upowerd
+    592 root     root         0     0 /usr/sbin/ModemManager
+    616 root     root         0     0 /usr/sbin/cupsd -l
+    619 root     root         0     0 /usr/sbin/rsyslogd -n
+    620 root     root         0     0 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    622 root     root         0     0 /usr/sbin/atd -f
+    623 root     root         0     0 /usr/sbin/crond -n
+    638 root     root         0     0 /usr/bin/sddm
+    639 root     root         0     0 login -- admin
+    814 root     root         0     0 /usr/libexec/Xorg -nolisten tcp -background none -seat seat0 vt2 -auth /run/sddm/xauth_hsnRXn -noreset -displayfd 15
+    853 root     root         0     0 /usr/libexec/postfix/master -w
+    866 root     root         0     0 /usr/libexec/sddm-helper --socket /tmp/sddm-auth-5605b52b-5f24-464c-8ab2-68a64e151cc9 --id 2 --start /usr/bin/sddm-greeter --socket /tmp/sddm-:0-dTeMrM --theme /usr/share/sddm/themes/RedOS --user sddm --greeter
+   5759 root     root         0     0 [kworker/0:2H-kblockd]
+   7267 root     root         0     0 su
+   7268 root     root         0     0 bash
+   7408 root     root         0     0 login -- admin
+   8204 root     root         0     0 su admin
+  25006 root     root         0     0 [kworker/u9:1-ext4-rsv-conversion]
+  25136 root     root         0     0 [kworker/u10:0-events_unbound]
+  25347 root     root         0     0 sshd-session: admin [priv]
+  25423 root     root         0     0 [kworker/u9:3-flush-8:0]
+  25523 root     root         0     0 [kworker/0:0-events]
+  25537 root     root         0     0 [kworker/u10:3-flush-8:0]
+  25568 root     root         0     0 [kworker/1:1H-kblockd]
+  25606 root     root         0     0 sshd-session: admin [priv]
+  25693 root     root         0     0 /usr/sbin/anacron -s
+  25716 root     root         0     0 [kworker/1:2-ata_sff]
+  25720 root     root         0     0 [kworker/0:1-ata_sff]
+  25741 root     root         0     0 [kworker/u9:0-events_unbound]
+  25742 root     root         0     0 [kworker/1:0-ata_sff]
+  25743 root     root         0     0 [kworker/u10:1]
+  25749 root     root         0     0 [kworker/1:1-mm_percpu_wq]
+  25754 root     root         0     0 systemd-userwork: waiting...
+  25773 root     root         0     0 [kworker/0:2-ata_sff]
+  25774 root     root         0     0 systemd-userwork: waiting...
+  25779 root     root         0     0 systemd-userwork: waiting...

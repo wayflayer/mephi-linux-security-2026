@@ -1,0 +1,10 @@
+    1  cp /usr/bin/chown ./my_chown
+    2  ls
+    3  sudo setcap cap_chown=ep my_chown 
+    4  getcap my_chown 
+    5  getcap my_chown > get_cap_res.out
+    6  touch test_file.txt
+    7  ls -l test_file.txt 
+    8  ./my_chown nobody test_file.txt 
+    9  ls -l test_file.txt 
+   10  history > task4.out

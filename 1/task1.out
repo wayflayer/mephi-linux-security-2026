@@ -1,0 +1,9 @@
+    1  sudo useradd -u 1234 -m user1
+    2  users
+    3  usermod -aG user1 students
+    4  groupadd students
+    5  sudo groupadd students
+    6  usermod -aG user1 students
+    7  usermod -aG students user1
+    8  sudo usermod -aG students user1
+    9  history > task1.txt

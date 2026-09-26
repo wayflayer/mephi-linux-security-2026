@@ -1,0 +1,14 @@
+    1  sudo systemctl stop ntp.serice
+    2  systemctl status ntpd
+    3  systemctl status ntpd.service 
+    4  systemctl status ntpdate.service 
+    5  echo 'user1 ALL=(root) /usr/bin/date' | sudo tee /etc/sudoers.d/user1_time
+    6  sudo chmod 440 /etc/sudoers.d/user1_time
+    7  sudo visudo -c
+    8  sudo -u user1  timedatectl set-time "2012-01-01 18:30:00"
+    9  sudo timedatectl set-ntp false
+   10  timedatectl status
+   11  sudo timedatectl set-ntp false
+   12  sudo -u user1  timedatectl set-time "2012-01-01 18:30:00"
+   13  date
+   14  history > task5.out
