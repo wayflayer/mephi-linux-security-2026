@@ -34,7 +34,7 @@
 | 2 | cmd2.1.out | результат find |
 | 2 | cmd2.2.out | результат ps |
 | 2 | task2.out | вывод history |
-| 3 | my_cat_shadow.out | вывод cat |
+| 3 | my_cat_shadow.out | вывод cat для chadow|
 | 3 | stat.out | вывод stat для my_cat |
 | 3 | task3.out | вывод history |
 | 4 | getcat.out | вывод getcap для my_chown |
